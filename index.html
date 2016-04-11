@@ -9,44 +9,88 @@
   </head>
   <body>
     <div class="container">
-      <h1>Tienda de música</h1>
-      <form class="form-inline" role="form">
-        <div class="form-group">
-          <label class="sr-only">Email</label>
-          <input type="email" class="form-control" placeholder="Correo electrónico">
+      <div class="col-md-11">
+        <div class="row">
+          <div class="col-md-7" style="border-style:solid;">
+            <h1>Tienda de música</h1>
+          </div>
+          <div class="col-md-5" style="border-style:solid">
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only">Email</label>
+                <input type="email" class="form-control" placeholder="Correo electrónico">
+              </div>
+              <div class="form-group">
+                <label class="sr-only">Contraseña</label>
+                <input type="password" class="form-control" placeholder="Contraseña">
+              </div>
+              <button type="submit" class="btn btn-default">Entrar</button>
+            </form>
+          </div>
         </div>
-        <div class="form-group">
-          <label class="sr-only">Contraseña</label>
-          <input type="password" class="form-control" placeholder="Contraseña">
+        <div class="row">
+          <div class="col-md-4" style="border-style:solid;">
+            <h2>Último disco novedades 1</h2>
+          </div>
+          <div class="col-md-4" style="border-style:solid;">
+            <h2>Último disco novedades 2</h2>
+          </div>
+          <div class="col-md-4" style="border-style:solid;">
+            <h2>Último disco novedades 3</h2>
+          </div>
         </div>
-        <button type="submit" class="btn btn-default">Entrar</button>
-      </form>
-      <section class="ultimoDiscoNovedades">
-        <article class="disco">
-          <h2>Último disco novedades 1</h2>
-        </article>
-        <article class="disco">
-          <h2>Último disco novedades 2</h2>
-        </article>
-        <article class="disco">
-          <h2>Último disco novedades 3</h2>
-        </article>
-      </section>
-      <nav>
-        <ul>
-          <li class="secciones"><a href="index.html">Secciones</a></li>
-          <li class="pop"><a href="pop.html">Pop</a></li>
-          <li class="rock"><a href="rock.html">Rock</a></li>
-          <li class="electronica"><a href="electronica.html">Electrónica</a></li>
-          <li class="clasica"><a href="clasica.html">Clásica</a></li>
-          <li class="masvendidos"><a href="index.html">Más vendidos</a></li>
-          <li class="mascomentados"><a href="index.html">Más comentados</a></li>
-         </ul>
-       </nav>
-      </section>
-      <aside>
-         <img src="publi.jpg">
-      </aside>
+        <div class="row">
+          <div class="col-md-8" style="border-style:solid">
+            <h2>Secciones | Géneros</h2>
+            <div class="row">
+              <div class="col-md-6" style="border-style:solid">
+                Noticias musicales
+              </div>
+              <div class="col-md-6" style="border-style:solid">
+                Discos más comentados
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6" style="border-style:solid">
+                Disco destacado cuerpo
+              </div>
+              <div class="col-md-6" style="border-style:solid">
+                Discos más comentados
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" style="border-style:solid">
+            <h2>Novedades por género</h2>
+            <div class="row">
+              Disco 1
+            </div>
+            <div class="row">
+              Disco 2
+            </div>
+            <div class="row">
+              Disco 3
+            </div>
+            <div class="row">
+              Disco 4
+            </div>
+            <div class="row">
+              Disco 5
+            </div>
+            <div class="row">
+              Disco 6
+            </div>
+          </div>
+        </div>
+        <div class="row" style="border-style:solid;">
+          Contacto e información de la tienda de música
+        </div>
+      </div>
+      <div class="col-md-1" style="border-style:solid;">
+        <aside>
+          <img src="publi.jpg">
+        </aside>
+      </div>
+    </div>
       <!-- Librería jQuery requerida por los plugins de JavaScript -->
       <script src="http://code.jquery.com/jquery.js"></script>
       <!-- Todos los plugins JavaScript de Bootstrap (también puedes
