@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>Tienda de música</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="estilos.css" />
-    <!-- <link rel="shortcut icon" href="/favicon.ico" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda de música</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   </head>
   <body>
-    <section class="tienda">
-      <header>
-         <article class="titulo">
-           <h1>Nombre de la tienda de música</h1>
-         </article>
-         <article class="login">
-           <h1>usuario: _______ contraseña: _______</h1>
-         </article>
-      </header>
-     <section class="ultimoDiscoNovedades">
-       <article class="disco">
-        <h2>Último disco novedades 1</h2>
-       </article>
-       <article class="disco">
-        <h2>Último disco novedades 2</h2>
-       </article>
-       <article class="disco">
-        <h2>Último disco novedades 3</h2>
-       </article>
-     </section>
-     <nav class="menu">
-       <ul>
-         <li class="secciones"><a href="index.html">Secciones</a></li>
-         <li class="pop"><a href="pop.html">Pop</a></li>
-         <li class="rock"><a href="rock.html">Rock</a></li>
-         <li class="electronica"><a href="electronica.html">Electrónica</a></li>
-         <li class="clasica"><a href="clasica.html">Clásica</a></li>
-         <li class="masvendidos"><a href="index.html">Más vendidos</a></li>
-         <li class="mascomentados"><a href="index.html">Más comentados</a></li>
-       </ul>
-     </nav>
-    </section>
-
-    <aside class="publicidad">
-       <img src="publi.jpg">
-    </aside>
-    <!--
-    <footer>
-      Contacto e información de la tienda de música
-    </footer>
-    -->
+    <div class="container">
+      <h1>Tienda de música</h1>
+      <form class="form-inline" role="form">
+        <div class="form-group">
+          <label class="sr-only">Email</label>
+          <input type="email" class="form-control" placeholder="Correo electrónico">
+        </div>
+        <div class="form-group">
+          <label class="sr-only">Contraseña</label>
+          <input type="password" class="form-control" placeholder="Contraseña">
+        </div>
+        <button type="submit" class="btn btn-default">Entrar</button>
+      </form>
+      <section class="ultimoDiscoNovedades">
+        <article class="disco">
+          <h2>Último disco novedades 1</h2>
+        </article>
+        <article class="disco">
+          <h2>Último disco novedades 2</h2>
+        </article>
+        <article class="disco">
+          <h2>Último disco novedades 3</h2>
+        </article>
+      </section>
+      <nav>
+        <ul>
+          <li class="secciones"><a href="index.html">Secciones</a></li>
+          <li class="pop"><a href="pop.html">Pop</a></li>
+          <li class="rock"><a href="rock.html">Rock</a></li>
+          <li class="electronica"><a href="electronica.html">Electrónica</a></li>
+          <li class="clasica"><a href="clasica.html">Clásica</a></li>
+          <li class="masvendidos"><a href="index.html">Más vendidos</a></li>
+          <li class="mascomentados"><a href="index.html">Más comentados</a></li>
+         </ul>
+       </nav>
+      </section>
+      <aside>
+         <img src="publi.jpg">
+      </aside>
+      <!-- Librería jQuery requerida por los plugins de JavaScript -->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <!-- Todos los plugins JavaScript de Bootstrap (también puedes
+           incluir archivos JavaScript individuales de los únicos
+           plugins que utilices) -->
+      <script src="js/bootstrap.min.js"></script>
+    </div>
   </body>
 </html>
