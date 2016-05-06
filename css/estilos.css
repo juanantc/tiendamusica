@@ -1,0 +1,34 @@
+
+
+.titulo {
+ background-color: #CCFF99;
+ margin: 3%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+.img-novedades{
+  padding: 3%;
+}
+
+.form-login{
+  padding-top: 4%;
+}
+
+.publi{
+  margin-top: 20%;
+}
+
+.comentariosUltimoDiscoNovedades{
+}
+
+.btnPlay{
+  width: 25px;
+  height: 25px
+}
+
+.btnPlayUltimoDiscoNovedades{
+  float: right;
+}
