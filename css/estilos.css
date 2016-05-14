@@ -34,14 +34,15 @@ nav.navbar {
   margin-top: 20%;
 }
 
-.comentariosUltimoDiscoNovedades{
-}
-
 .btnPlay{
   width: 25px;
-  height: 25px
+  height: 25px;
 }
 
 .btnPlayUltimoDiscoNovedades{
   float: right;
+}
+
+.groove{
+  border-style: groove;
 }

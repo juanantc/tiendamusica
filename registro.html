@@ -57,17 +57,86 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12" style="border-style:groove">
+            <div class="col-md-12 groove">
               <h1>Suscripción</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12" style="border-style:groove">
+            <div class="col-md-12 groove">
               <h3>Subtítulo de la suscripción</h3>
             </div>
           </div>
-          <div class="row" style="border-style:groove">
+          <div class="row groove">
             <h4>Formulario</h4>
+            <form role="form">
+              <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" class="form-control" placeholder="Apellidos">
+              </div>
+              <div class="form-group">
+                <label for="usuario">Nombre usuario</label>
+                <input type="text" class="form-control" placeholder="Usuario">
+              </div>
+              <div class="form-group">
+                <label for="password">Clave</label>
+                <input type="password" class="form-control" placeholder="Clave">
+              </div>
+              <div class="form-group">
+                <label for="direccion">Dirección postal</label>
+                <input type="text" class="form-control" placeholder="Dirección postal">
+              </div>
+              <div class="form-group">
+                <label for="ciudad">Ciudad</label>
+                <input type="text" class="form-control" placeholder="Ciudad">
+              </div>
+              <div class="form-group">
+                <label for="codigoPostal">Código postal</label>
+                <input type="text" class="form-control" placeholder="Código postal">
+              </div>
+              <div class="form-group">
+                <label for="provincia">Provincia</label>
+                <input type="text" class="form-control" placeholder="Provincia">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="Correo electrónico">
+              </div>
+              <div class="form-group">
+                <label for="dni">DNI</label>
+                <input type="text" class="form-control" placeholder="DNI">
+              </div>
+              <div class="form-group">
+                <label for="visa">Visa</label>
+                <input type="text" class="form-control" placeholder="VISA">
+              </div>
+              <div class="form-group">
+                <label for="observaciones">Observaciones</label>
+                <input type="text" class="form-control" placeholder="Observaciones">
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="opciones" id="op_mensual" value="op_mensual" checked>
+                  Mensual
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="opciones" id="op_semanal" value="op_semanal">
+                  Semanal
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="opciones" id="op_diario" value="op_diario">
+                  Diario
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Enviar</button>
+            </form>
           </div>
         </div>
         <div class="col-md-1">
