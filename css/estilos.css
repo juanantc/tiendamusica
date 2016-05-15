@@ -43,6 +43,11 @@ nav.navbar {
   float: right;
 }
 
+.formRegistro{
+  margin: 0 auto;
+  width: 60%;
+}
+
 .groove{
   border-style: groove;
 }

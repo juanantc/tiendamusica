@@ -66,7 +66,7 @@
               <h3>Subtítulo de la suscripción</h3>
             </div>
           </div>
-          <div class="row groove">
+          <div class="row formRegistro groove">
             <h4>Formulario</h4>
             <form role="form">
               <div class="form-group">
@@ -117,6 +117,7 @@
                 <label for="observaciones">Observaciones</label>
                 <input type="text" class="form-control" placeholder="Observaciones">
               </div>
+              <label for="envio">Envío</label>
               <div class="radio">
                 <label>
                   <input type="radio" name="opciones" id="op_mensual" value="op_mensual" checked>
@@ -135,7 +136,10 @@
                   Diario
                 </label>
               </div>
-              <button type="submit" class="btn btn-default">Enviar</button>
+              <div class="checkbox">
+                <button type="submit" class="btn btn-default">Enviar suscripción</button>
+                <label><input type="checkbox" value="">He leído y acepto las condiciones del servicio de suscripción</label>
+              </div>
             </form>
           </div>
         </div>
