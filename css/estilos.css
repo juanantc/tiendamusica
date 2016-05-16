@@ -19,7 +19,7 @@ a:hover{
 }
 
 nav.navbar {
-    background-color: #E6E6FA;
+    background-color: white;
 }
 
 .img-novedades{
@@ -50,4 +50,56 @@ nav.navbar {
 
 .groove{
   border-style: groove;
+}
+
+.solid{
+  border-style: solid;
+}
+
+.pop{
+  background-color: #A9CCE3;
+}
+
+li.pop a:hover{
+  background-color: #5499C7;
+}
+
+.rock{
+  background-color: #F5B7B1;
+}
+
+li.rock a:hover{
+  background-color: #E74C3C;
+}
+
+.alternativa{
+  background-color: #ABEBC6;
+}
+
+li.alternativa a:hover{
+  background-color: #2ECC71;
+}
+
+.electronica{
+  background-color: #F9E79F;
+}
+
+li.electronica a:hover{
+  background-color: #F1C40F;
+}
+
+.masVendido{
+  background-color: #E5E7E9;
+}
+
+li.masVendido a:hover{
+  background-color: #BDC3C7;
+}
+
+.masComentado{
+  background-color: #E5E7E9;
+}
+
+li.masComentado a:hover{
+  background-color: #BDC3C7;
 }
